@@ -1,4 +1,5 @@
 # 🎁 Sorteador de Amigo Secreto 
+[![Badge de Conquista](https://github.com/mikaeladepaula/challenge-amigo-secreto/blob/main/assets/Badge%20Challenge.png?raw=true)](https://mikaeladepaula.github.io/challenge-amigo-secreto/)
 
 ### ✨ Projeto finalizado! ✨
 
@@ -7,6 +8,14 @@
 Este é um projeto simples e divertido de uma aplicação web para sortear nomes em um "Amigo Secreto". O aplicativo permite aos usuários adicionar nomes a uma lista, e então, com um único clique, realizar um sorteio aleatório para determinar o amigo secreto.
 
 O projeto foi desenvolvido como um desafio, com foco na prática dos fundamentos do desenvolvimento web.
+
+---
+
+### 🎉 **Clique aqui para testar o projeto ao vivo!** 🎉
+
+- **Link para o Projeto:** https://mikaeladepaula.github.io/challenge-amigo-secreto/
+
+---
 
 ## 📹 Demonstração
 
