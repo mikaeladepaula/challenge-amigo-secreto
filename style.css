@@ -21,7 +21,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Ajustado para que o conteúdo possa rolar em telas menores */
     overflow-x: hidden;
 }
 
@@ -39,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
-    text-align: center; /* Centraliza o título no banner */
+    text-align: center;
 }
 
 /* Seção de entrada */
@@ -90,9 +89,8 @@ body {
     font-size: 16px;
 }
 
-/* -- AQUI ESTÃO AS PRINCIPAIS MUDANÇAS -- */
 .button-container {
-    width: 100%; /* Largura total em vez de fixa */
+    width: 100%;
     max-width: 300px;
     justify-content: center;
     display: flex;
@@ -183,40 +181,66 @@ ul {
 
 /* Media Query para telas menores que 768px (celulares e tablets) */
 @media (max-width: 768px) {
+    /* Ajustes para o cabeçalho e títulos */
+    .header-banner {
+        padding: 20px 0;
+    }
+
     .main-title {
-        font-size: 36px; /* Diminui o tamanho da fonte */
+        font-size: 32px;
+        line-height: 1.2;
     }
 
     .section-title {
-        font-size: 24px; /* Diminui o tamanho da fonte */
+        font-size: 20px;
+        line-height: 1.2;
     }
     
     .header-banner img {
-        max-width: 80%; /* Garante que a imagem se ajuste */
+        max-width: 70%;
+        height: auto;
     }
 
+    /* Ajustes para o input e botões */
     .input-wrapper {
-        flex-direction: column; /* Faz o input e o botão "Adicionar" ficarem um abaixo do outro */
-        max-width: 90%; /* Ajusta a largura para a tela do celular */
+        flex-direction: column;
+        max-width: 90%;
+        margin-top: 10px;
     }
 
     .input-name {
-        border-radius: 25px; /* Arredonda todas as bordas do input */
-        margin-bottom: 10px;
+        border-radius: 25px;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .button-add {
         width: 100%;
-        border-radius: 25px; /* Arredonda todas as bordas do botão Adicionar */
+        border-radius: 25px;
     }
 
     .button-container {
-        flex-direction: column; /* Faz os botões "Sortear" e "Reiniciar" ficarem um abaixo do outro */
+        flex-direction: column;
         max-width: 90%;
+        gap: 15px; /* Aumenta o espaçamento entre os botões empilhados */
     }
 
     .button-draw {
         text-align: center;
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 20px;
+        line-height: 1.2;
+    }
+
+    .button-draw img {
+        margin-right: 10px;
+        width: 20px;
+    }
+
+    .button-reset {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 20px;
     }
 }
